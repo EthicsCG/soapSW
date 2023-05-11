@@ -60,11 +60,7 @@ begin
     cudf.codigoPuntoVenta := 0;
     datos := respuesta.cufd(cudf);
     cudf.Free;
-    if Trim(datos.codigo) <> ''  then
-      ShowMessage('Codigo Cuis: '+datos.codigo)
-    else
-      ShowMessage('sin datos del codigo');
-    Memo1.Lines.LoadFromFile('file.xml');
+
   except
     on E: Exception do
       ShowMessage('Error: ' + E.Message);

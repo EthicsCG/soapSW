@@ -16,14 +16,13 @@ type
     getCuisBtn: TButton;
     Memo1: TMemo;
     HTTPReqResp1: THTTPReqResp;
-    getCudfBtn: TButton;
+    Button1: TButton;
     procedure verificaConexionBtnClick(Sender: TObject);
     procedure HTTPRIO1HTTPWebNode1BeforePost(const HTTPReqResp: THTTPReqResp;
       Client: THTTPClient);
     procedure getCuisBtnClick(Sender: TObject);
     procedure HTTPRIO1AfterExecute(const MethodName: string;
       SOAPResponse: TStream);
-    procedure getCudfBtnClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -42,34 +41,6 @@ uses XSBuiltIns;
 
 {$R *.dfm}
 
-
-procedure TForm1.getCudfBtnClick(Sender: TObject);
-var cudf : solicitudCufd;
-  datos : respuestaCufd;
-  respuesta : ServicioFacturacionCodigos;
-begin
-  respuesta := GetServicioFacturacionCodigos(False, '', HTTPRIO1);
-  try
-    cudf := solicitudCufd.Create;
-    cudf.codigoAmbiente := 2;
-    cudf.codigoSistema := '771304925ECCF91C6396BF6';
-    cudf.nit := 2525555016;
-    cudf.codigoModalidad := 1;
-    cudf.cuis := '20DAA4D';
-    cudf.codigoSucursal := 0;
-    cudf.codigoPuntoVenta := 0;
-    datos := respuesta.cufd(cudf);
-    cudf.Free;
-    if Trim(datos.codigo) <> ''  then
-      ShowMessage('Codigo Cuis: '+datos.codigo)
-    else
-      ShowMessage('sin datos del codigo');
-    Memo1.Lines.LoadFromFile('file.xml');
-  except
-    on E: Exception do
-      ShowMessage('Error: ' + E.Message);
-  end;
-end;
 
 procedure TForm1.getCuisBtnClick(Sender: TObject);
 var datos : respuestaCuis;
@@ -95,7 +66,7 @@ begin
       ShowMessage('Codigo Cuis: '+codCuis)
     else
       ShowMessage('sin datos del codigo');
-    Memo1.Lines.LoadFromFile('file.xml');
+      Memo1.Lines.LoadFromFile('file.xml');
   except
     on E: Exception do
       ShowMessage('Error: ' + E.Message);

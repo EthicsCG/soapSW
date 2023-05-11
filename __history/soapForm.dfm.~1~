@@ -23,8 +23,8 @@ object Form1: TForm1
   object verificaConexionBtn: TButton
     Left = 8
     Top = 105
-    Width = 75
-    Height = 30
+    Width = 81
+    Height = 32
     Caption = 'verificaCon'
     TabOrder = 0
     OnClick = verificaConexionBtnClick
@@ -47,14 +47,13 @@ object Form1: TForm1
       '')
     TabOrder = 2
   end
-  object getCudfBtn: TButton
-    Left = 8
-    Top = 152
+  object Button1: TButton
+    Left = 40
+    Top = 208
     Width = 75
     Height = 25
-    Caption = 'cudf'
+    Caption = 'Button1'
     TabOrder = 3
-    OnClick = getCudfBtnClick
   end
   object HTTPRIO1: THTTPRIO
     OnAfterExecute = HTTPRIO1AfterExecute
