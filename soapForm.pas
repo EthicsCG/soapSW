@@ -17,6 +17,7 @@ type
     Memo1: TMemo;
     HTTPReqResp1: THTTPReqResp;
     getCudfBtn: TButton;
+    verForm2: TButton;
     procedure verificaConexionBtnClick(Sender: TObject);
     procedure HTTPRIO1HTTPWebNode1BeforePost(const HTTPReqResp: THTTPReqResp;
       Client: THTTPClient);
@@ -24,6 +25,7 @@ type
     procedure HTTPRIO1AfterExecute(const MethodName: string;
       SOAPResponse: TStream);
     procedure getCudfBtnClick(Sender: TObject);
+    procedure verForm2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -38,7 +40,7 @@ var
   comunicacion : respuestaComunicacion;
 implementation
 //para usar el tipo de TXSDateTime;
-uses XSBuiltIns;
+uses XSBuiltIns, procesoFunciones;
 
 {$R *.dfm}
 
@@ -61,7 +63,7 @@ begin
     datos := respuesta.cufd(cudf);
     cudf.Free;
     if Trim(datos.codigo) <> ''  then
-      ShowMessage('Codigo Cuis: '+datos.codigo)
+      ShowMessage('Codigo Cudf: '+datos.codigo)
     else
       ShowMessage('sin datos del codigo');
     Memo1.Lines.LoadFromFile('file.xml');
@@ -100,6 +102,11 @@ begin
     on E: Exception do
       ShowMessage('Error: ' + E.Message);
   end;
+end;
+
+procedure TForm1.verForm2Click(Sender: TObject);
+begin
+    procesoFunciones.Form2.Show;
 end;
 
 procedure TForm1.verificaConexionBtnClick(Sender: TObject);

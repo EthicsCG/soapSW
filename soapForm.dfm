@@ -56,6 +56,15 @@ object Form1: TForm1
     TabOrder = 3
     OnClick = getCudfBtnClick
   end
+  object verForm2: TButton
+    Left = 8
+    Top = 193
+    Width = 75
+    Height = 25
+    Caption = 'procesoCUD'
+    TabOrder = 4
+    OnClick = verForm2Click
+  end
   object HTTPRIO1: THTTPRIO
     OnAfterExecute = HTTPRIO1AfterExecute
     WSDLLocation = 
