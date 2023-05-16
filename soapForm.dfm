@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 298
-  ClientWidth = 631
+  ClientHeight = 328
+  ClientWidth = 745
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -20,50 +20,21 @@ object Form1: TForm1
     Height = 13
     Caption = 'Label1'
   end
-  object verificaConexionBtn: TButton
-    Left = 8
-    Top = 105
-    Width = 75
-    Height = 30
-    Caption = 'verificaCon'
-    TabOrder = 0
-    OnClick = verificaConexionBtnClick
-  end
-  object getCuisBtn: TButton
-    Left = 112
-    Top = 106
-    Width = 81
-    Height = 29
-    Caption = 'cuis'
-    TabOrder = 1
-    OnClick = getCuisBtnClick
-  end
   object Memo1: TMemo
-    Left = 240
-    Top = 16
-    Width = 383
-    Height = 257
-    Lines.Strings = (
-      '')
-    TabOrder = 2
+    Left = 152
+    Top = 8
+    Width = 585
+    Height = 312
+    TabOrder = 0
   end
-  object getCudfBtn: TButton
-    Left = 8
-    Top = 152
-    Width = 75
-    Height = 25
-    Caption = 'cudf'
-    TabOrder = 3
-    OnClick = getCudfBtnClick
-  end
-  object verForm2: TButton
-    Left = 8
-    Top = 193
-    Width = 75
-    Height = 25
-    Caption = 'procesoCUD'
-    TabOrder = 4
-    OnClick = verForm2Click
+  object procesoUnificado: TButton
+    Left = 24
+    Top = 112
+    Width = 115
+    Height = 33
+    Caption = 'SoapProcess'
+    TabOrder = 1
+    OnClick = procesoUnificadoClick
   end
   object HTTPRIO1: THTTPRIO
     OnAfterExecute = HTTPRIO1AfterExecute

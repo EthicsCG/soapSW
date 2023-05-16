@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, soapForm;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, soapForm, Velthuis.BigIntegers;
 
 type
   TForm2 = class(TForm)
@@ -14,6 +14,8 @@ type
   private
     { Private declarations }
     function getmodule11 (cadena : string; numDig,limMult  : Integer; x10 : Boolean) : string;
+    function getBase16(pString: string): string;
+    function getBase10(pString: string): string;
   public
     { Public declarations }
   end;
@@ -24,13 +26,16 @@ var
 implementation
 
 {$R *.dfm}
-
+  //System.SysUtils, System.Math.Vectors;
+uses System.Math;
 procedure TForm2.procesoCudBtnClick(Sender: TObject);
 var sucursal, modalidad, tipEmision, tipFactura, tipSector, nroFactura,
     pos, I : Integer;
     cudp : string;
     nit : Int64;
+    cud : string;
     modulo11 : string;
+    codigo : string;
 begin
   nit := 2525555016;
   sucursal := 0;
@@ -42,6 +47,7 @@ begin
   //factura compra venta/recibo/notadébito
   tipSector := 1;
   nroFactura := 4220;
+  codigo := '';
   //punto de venta
   pos := 0;
   cudp := Format('%0.*D',[13,nit])+FormatDateTime('yyyyMMddHHnnssZZ', Now)+
@@ -50,8 +56,8 @@ begin
           Format('%0.*D', [10, nroFactura])+ Format('%0.*D', [4, pos]);
   modulo11 := getmodule11(cudp, 1, 9, false);
   cudp := cudp + modulo11;
-  //aplicar resultante base 16
-  Memo1.Text := cudp;
+  cud := getBase16(cudp);
+  cud := cud;
 end;
 
 //funcion modulo11
@@ -85,4 +91,21 @@ begin
   Result := cadena.Substring(cadena.Length - numDig, cadena.Length);
 end;
 
+//function base 16
+function TForm2.getBase16(pString: string): string;
+var
+  vValor: BigInteger;
+begin
+  vValor := BigInteger.Parse(pString);
+  Result := vValor.ToHexString;
+end;
+
+//funcion base 10
+function TForm2.getBase10(pString: string): string;
+var
+  vValor: BigInteger;
+begin
+  vValor := BigInteger.Parse('$' + pString);
+  Result := vValor.ToString();
+end;
 end.

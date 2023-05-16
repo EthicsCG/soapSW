@@ -1,0 +1,60 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 328
+  ClientWidth = 745
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = True
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 16
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
+  object Memo1: TMemo
+    Left = 240
+    Top = 16
+    Width = 481
+    Height = 289
+    Lines.Strings = (
+      '')
+    TabOrder = 0
+  end
+  object procesoUnificado: TButton
+    Left = 24
+    Top = 112
+    Width = 115
+    Height = 33
+    Caption = 'SoapProcess'
+    TabOrder = 1
+    OnClick = procesoUnificadoClick
+  end
+  object HTTPRIO1: THTTPRIO
+    OnAfterExecute = HTTPRIO1AfterExecute
+    WSDLLocation = 
+      'https://pilotosiatservicios.impuestos.gob.bo/v2/FacturacionCodig' +
+      'os?wsdl'
+    Service = 'ServicioFacturacionCodigos'
+    Port = 'ServicioFacturacionCodigosPort'
+    HTTPWebNode.OnBeforePost = HTTPRIO1HTTPWebNode1BeforePost
+    Converter.Options = [soSendMultiRefObj, soTryAllSchema, soRootRefNodesToBody, soCacheMimeResponse, soUTF8EncodeXML]
+    Left = 40
+    Top = 48
+  end
+  object HTTPReqResp1: THTTPReqResp
+    URL = 
+      'https://pilotosiatservicios.impuestos.gob.bo/v2/FacturacionCodig' +
+      'os?wsdl'
+    Left = 104
+    Top = 48
+  end
+end

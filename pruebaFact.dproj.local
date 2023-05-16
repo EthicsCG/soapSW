@@ -2,13 +2,17 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2023/05/08 08:05:00.000.268,=D:\Proyectos\DELPHI\Unit1.pas</Transaction>
-    <Transaction>2023/05/08 09:41:15.000.441,D:\Proyectos\DELPHI\pruebaFact\soapForm.pas=D:\Proyectos\DELPHI\Unit1.pas</Transaction>
-    <Transaction>2023/05/08 09:41:15.000.441,D:\Proyectos\DELPHI\pruebaFact\soapForm.dfm=D:\Proyectos\DELPHI\Unit1.dfm</Transaction>
-    <Transaction>2023/05/08 09:41:35.000.581,D:\Proyectos\DELPHI\pruebaFact\pruebaFact.dproj=D:\Proyectos\DELPHI\Project1.dproj</Transaction>
+    <Transaction>2023/05/08 09:41:15.000.441,D:\Proyectos\DELPHI\Unit1.dfm=D:\Proyectos\DELPHI\pruebaFact\soapForm.dfm</Transaction>
+    <Transaction>2023/05/08 09:41:15.000.441,D:\Proyectos\DELPHI\Unit1.pas=D:\Proyectos\DELPHI\pruebaFact\soapForm.pas</Transaction>
+    <Transaction>2023/05/08 09:41:35.000.581,D:\Proyectos\DELPHI\Project1.dproj=D:\Proyectos\DELPHI\pruebaFact\pruebaFact.dproj</Transaction>
     <Transaction>2023/05/08 12:17:06.000.915,=D:\Proyectos\DELPHI\pruebaFact\FacturacionCodigos.pas</Transaction>
     <Transaction>2023/05/11 10:52:56.000.634,=D:\Proyectos\DELPHI\pruebaFact\Unit1.pas</Transaction>
-    <Transaction>2023/05/11 14:46:46.414,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.pas</Transaction>
-    <Transaction>2023/05/11 15:43:13.945,C:\Users\Sistemas\Documents\GitHub\soapSW\procesoFunciones.pas=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.pas</Transaction>
-    <Transaction>2023/05/11 15:43:13.945,C:\Users\Sistemas\Documents\GitHub\soapSW\procesoFunciones.dfm=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.dfm</Transaction>
+    <Transaction>2023/05/11 14:46:46.000.414,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.pas</Transaction>
+    <Transaction>2023/05/11 15:43:13.000.945,C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.pas=C:\Users\Sistemas\Documents\GitHub\soapSW\procesoFunciones.pas</Transaction>
+    <Transaction>2023/05/11 15:43:13.000.945,C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.dfm=C:\Users\Sistemas\Documents\GitHub\soapSW\procesoFunciones.dfm</Transaction>
+    <Transaction>2023/05/13 11:47:19.000.722,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
+    <Transaction>2023/05/13 11:52:19.000.542,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 14:30:16.642,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 14:30:24.237,C:\Users\Sistemas\Documents\GitHub\soapSW\sdcs.pas=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

@@ -3,7 +3,7 @@ object Form2: TForm2
   Top = 0
   Caption = 'Form2'
   ClientHeight = 299
-  ClientWidth = 635
+  ClientWidth = 451
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,7 +14,7 @@ object Form2: TForm2
   PixelsPerInch = 96
   TextHeight = 13
   object procesoCudBtn: TButton
-    Left = 528
+    Left = 344
     Top = 266
     Width = 99
     Height = 25

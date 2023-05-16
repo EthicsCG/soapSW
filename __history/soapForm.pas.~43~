@@ -1,0 +1,311 @@
+unit soapForm;
+
+interface
+
+uses Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics, Vcl.Controls, Vcl.Forms, Vcl.Dialogs,
+  Soap.InvokeRegistry, System.Net.URLClient, System.Net.HttpClient,
+  Soap.SOAPHTTPTrans, Soap.Rio, Soap.SOAPHTTPClient, Vcl.StdCtrls,
+  FacturacionCodigos;
+
+type
+  TForm1 = class(TForm)
+    HTTPRIO1: THTTPRIO;
+    Label1: TLabel;
+    verificaConexionBtn: TButton;
+    getCuisBtn: TButton;
+    Memo1: TMemo;
+    HTTPReqResp1: THTTPReqResp;
+    getCudfBtn: TButton;
+    verForm2: TButton;
+    procesoUnificado: TButton;
+    procedure verificaConexionBtnClick(Sender: TObject);
+    procedure HTTPRIO1HTTPWebNode1BeforePost(const HTTPReqResp: THTTPReqResp;
+      Client: THTTPClient);
+    procedure getCuisBtnClick(Sender: TObject);
+    procedure HTTPRIO1AfterExecute(const MethodName: string;
+      SOAPResponse: TStream);
+    procedure getCudfBtnClick(Sender: TObject);
+    procedure verForm2Click(Sender: TObject);
+    procedure procesoUnificadoClick(Sender: TObject);
+  private
+    { Private declarations }
+    procedure getCuis;
+    procedure getCudf(cuis :string);
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  ws : ServicioFacturacionCodigos;
+  respuesta : ServicioFacturacionCodigos;
+  solcuis : solicitudCuis;
+  comunicacion : respuestaComunicacion;
+implementation
+//para usar el tipo de TXSDateTime;
+uses XSBuiltIns, procesoFunciones;
+
+{$R *.dfm}
+
+
+procedure TForm1.getCudfBtnClick(Sender: TObject);
+var cudf : solicitudCufd;
+  datos : respuestaCufd;
+  respuesta : ServicioFacturacionCodigos;
+begin
+  respuesta := GetServicioFacturacionCodigos(False, '', HTTPRIO1);
+  try
+    cudf := solicitudCufd.Create;
+    cudf.codigoAmbiente := 2;
+    cudf.codigoSistema := '771304925ECCF91C6396BF6';
+    cudf.nit := 2525555016;
+    cudf.codigoModalidad := 1;
+    cudf.cuis := '20DAA4D';
+    cudf.codigoSucursal := 0;
+    cudf.codigoPuntoVenta := 0;
+    datos := respuesta.cufd(cudf);
+    cudf.Free;
+    if Trim(datos.codigo) <> ''  then
+      ShowMessage('Codigo Cudf: '+datos.codigo)
+    else
+      ShowMessage('sin datos del codigo');
+    Memo1.Lines.LoadFromFile('file.xml');
+  except
+    on E: Exception do
+      ShowMessage('Error: ' + E.Message);
+  end;
+end;
+
+procedure TForm1.getCuisBtnClick(Sender: TObject);
+var datos : respuestaCuis;
+    cuis : solicitudCuis;
+    respuesta : ServicioFacturacionCodigos;
+    vigencia : TXSDateTime;
+    codCuis : string;
+begin
+  respuesta := GetServicioFacturacionCodigos(False, '', HTTPRIO1);
+  try
+    cuis := solicitudCuis.Create;
+    cuis.codigoAmbiente := 2;
+    cuis.codigoSistema := '771304925ECCF91C6396BF6';
+    cuis.nit := 2525555016;
+    cuis.codigoModalidad := 1;
+    cuis.codigoSucursal := 0;
+    cuis.codigoPuntoVenta := 0;
+    datos := respuesta.cuis(cuis);
+    cuis.Free;
+    codCuis := datos.codigo;
+    vigencia := datos.fechaVigencia;
+    if Trim(datos.codigo) <> ''  then
+      ShowMessage('Codigo Cuis: '+codCuis)
+    else
+      ShowMessage('sin datos del codigo');
+    Memo1.Lines.LoadFromFile('file.xml');
+  except
+    on E: Exception do
+      ShowMessage('Error: ' + E.Message);
+  end;
+end;
+
+procedure TForm1.verForm2Click(Sender: TObject);
+begin
+    procesoFunciones.Form2.Show;
+end;
+
+procedure TForm1.verificaConexionBtnClick(Sender: TObject);
+var respuesta : ServicioFacturacionCodigos;
+begin
+  respuesta := GetServicioFacturacionCodigos(False, '', HTTPRIO1);
+  respuesta.verificarComunicacion;
+  try
+    ShowMessage('Pasa dato apikey');
+    Memo1.Lines.LoadFromFile('file.xml');
+  except
+    on E: Exception do
+      ShowMessage('Error: ' + E.Message);
+  end;
+end;
+
+//genera xml para cualquier proceso SOAP
+procedure TForm1.HTTPRIO1AfterExecute(const MethodName: string;
+  SOAPResponse: TStream);
+var xml : TStringlist;
+begin
+  xml := TStringlist.create;
+  try
+    soapresponse.Position:=0;
+    xml.LoadFromStream(SOAPResponse);
+    xml.SaveToFile('file.xml');
+  finally
+    xml.Free;
+  end;
+end;
+
+//proceso para agregar token a la cabecera
+procedure TForm1.HTTPRIO1HTTPWebNode1BeforePost(const HTTPReqResp: THTTPReqResp;
+  Client: THTTPClient);
+var Token : string;
+begin
+  Token:= 'TokenApi eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJtYXJjb25pI'+
+          'iwiY29kaWdvU2lzdGVtYSI6Ijc3MTMwNDkyNUVDQ0Y5MUM2Mzk2QkY2Iiwi'+
+          'bml0IjoiSDRzSUFBQUFBQUFBQURNeU5USUZBZ05ETXdEYnY1WUJDZ0FBQUE9'+
+          'PSIsImlkIjoyNDg1NSwiZXhwIjoxNjg4MDgzMjAwLCJpYXQiOjE2ODMxNDUwMT'+
+          'csIm5pdERlbGVnYWRvIjoyNTI1NTU1MDE2LCJzdWJzaXN0ZW1hIjoiU0ZFIn0'+
+          '.-HAcNb1xKygGFvFGHiPliGt6v43118c3PfAA-MwpXh0UP0bW_dZICmRnAsfE'+
+          't4HGLZpxUib2H32xLh1VyE8GvA';
+  //token en el encabezado SOAP
+  Client.CustomHeaders['apikey'] := Token;
+end;
+
+procedure TForm1.procesoUnificadoClick(Sender: TObject);
+var archivo :TextFile;
+    linea :string;
+    sw : Integer;
+    cuis, vigenciaC : string;
+    cudf, vigCudf, codControl, direccion : string;
+begin
+  getCuis;
+  AssignFile(archivo, 'datosCuis.txt');
+  Reset(archivo);
+  sw := 0;
+  while not Eof(archivo) do
+  begin
+    Readln(archivo, linea);
+    if sw = 0 then
+    begin
+      cuis := linea;
+      sw := 1;
+    end
+    else
+      vigenciaC := linea;
+  end;
+  CloseFile(archivo);
+  getCudf(cuis);
+  AssignFile(archivo, 'datosCudf.txt');
+  Reset(archivo);
+  sw := 0;
+  while not Eof(archivo) do
+  begin
+    Readln(archivo, linea);
+    case sw of
+      0:
+      begin
+        cudf := linea;
+        sw := sw +1;
+      end;
+      1: 
+      begin
+        vigCudf := linea;
+        sw := sw +1;
+      end;
+      2: 
+      begin
+        codControl := linea;
+        sw := sw +1;
+      end;
+      3: 
+      begin
+        direccion := linea;
+        sw := sw +1;  
+      end;
+    end;
+  end;
+  ShowMessage(codControl);
+end;
+
+//funcion genera cuis y lo almacena en archivo de texto
+procedure TForm1.getCuis;
+var datos : respuestaCuis;
+    cuis : solicitudCuis;
+    respuesta : ServicioFacturacionCodigos;
+    //archivo de texto
+    archivo : TextFile;
+    sw : Integer;
+    linea : string;
+    vigencia : string;
+begin
+  sw := 0;
+  if not FileExists('datosCuis.txt') then
+  begin
+    sw := 1;
+  end
+  else
+  begin
+    AssignFile(archivo, 'datosCuis.txt');
+    Reset(archivo);
+    while not Eof(archivo) do
+    begin
+      Readln(archivo, linea);
+      vigencia := linea;
+    end;
+    CloseFile(archivo);
+    if Now() > StrToDateTime(vigencia) then
+    begin
+      AssignFile(archivo, 'datosCuis.txt');
+      Rewrite(archivo);
+      Write(archivo, '');
+      CloseFile(archivo);
+      sw := 1;
+    end;
+  end;
+  if sw = 1 then
+  begin
+    respuesta := GetServicioFacturacionCodigos(False, '', HTTPRIO1);
+    try
+      cuis := solicitudCuis.Create;
+      cuis.codigoAmbiente := 2;
+      cuis.codigoSistema := '771304925ECCF91C6396BF6';
+      cuis.nit := 2525555016;
+      cuis.codigoModalidad := 1;
+      cuis.codigoSucursal := 0;
+      cuis.codigoPuntoVenta := 0;
+      datos := respuesta.cuis(cuis);
+      cuis.Free;
+      //crear archivo txt
+      AssignFile (archivo,'datosCuis.txt');
+      Rewrite (archivo);
+      Writeln(archivo, datos.codigo);
+      Writeln(archivo, DateTimeToStr(datos.fechaVigencia.AsDateTime));
+      CloseFile (archivo);
+    except
+      on E: Exception do
+        ShowMessage('Error: ' + E.Message);
+    end;
+  end;
+end;
+
+//funcion de obtencion cudf y almacenamiento de variables
+procedure TForm1.getCudf (cuis :string);
+var cudf : solicitudCufd;
+    datos : respuestaCufd;
+    respuesta : ServicioFacturacionCodigos;
+    //archivo de texto
+    archivo : TextFile;
+begin
+  respuesta := GetServicioFacturacionCodigos(False, '', HTTPRIO1);
+  try
+    cudf := solicitudCufd.Create;
+    cudf.codigoAmbiente := 2;
+    cudf.codigoSistema := '771304925ECCF91C6396BF6';
+    cudf.nit := 2525555016;
+    cudf.codigoModalidad := 1;
+    cudf.cuis := cuis;
+    cudf.codigoSucursal := 0;
+    cudf.codigoPuntoVenta := 0;
+    datos := respuesta.cufd(cudf);
+    cudf.Free;
+    //crear archivo txt
+    AssignFile (archivo,'datosCudf.txt');
+    Rewrite (archivo);
+    Writeln(archivo, datos.codigo);
+    Writeln(archivo, DateTimeToStr(datos.fechaVigencia.AsDateTime));
+    Writeln(archivo, datos.codigoControl);
+    Writeln(archivo, datos.direccion);
+    CloseFile (archivo);
+  except
+    on E: Exception do
+      ShowMessage('Error: ' + E.Message);
+  end;
+end;
+end.
