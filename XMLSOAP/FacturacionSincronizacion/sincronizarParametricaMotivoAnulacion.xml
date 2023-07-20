@@ -1,0 +1,25 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:sincronizarParametricaMotivoAnulacionResponse xmlns:ns2="https://siat.impuestos.gob.bo/">
+			<RespuestaListaParametricas>
+				<transaccion>true</transaccion>
+				<listaCodigos>
+					<codigoClasificador>1</codigoClasificador>
+					<descripcion>FACTURA MAL EMITIDA</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>2</codigoClasificador>
+					<descripcion>NOTA DE CREDITO-DEBITO MAL EMITIDA</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>3</codigoClasificador>
+					<descripcion>DATOS DE EMISION INCORRECTOS</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>4</codigoClasificador>
+					<descripcion>FACTURA O NOTA DE CREDITO-DEBITO DEVUELTA</descripcion>
+				</listaCodigos>
+			</RespuestaListaParametricas>
+		</ns2:sincronizarParametricaMotivoAnulacionResponse>
+	</soap:Body>
+</soap:Envelope>

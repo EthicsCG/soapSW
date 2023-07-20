@@ -1,0 +1,1233 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:sincronizarParametricaTipoMetodoPagoResponse xmlns:ns2="https://siat.impuestos.gob.bo/">
+            <RespuestaListaParametricas>
+                <transaccion>true</transaccion>
+                <listaCodigos>
+                    <codigoClasificador>1</codigoClasificador>
+                    <descripcion>EFECTIVO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>2</codigoClasificador>
+                    <descripcion>TARJETA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>3</codigoClasificador>
+                    <descripcion>CHEQUE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>4</codigoClasificador>
+                    <descripcion>VALES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>5</codigoClasificador>
+                    <descripcion>OTROS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>6</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>7</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>8</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>9</codigoClasificador>
+                    <descripcion>TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>10</codigoClasificador>
+                    <descripcion>EFECTIVO-TARJETA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>11</codigoClasificador>
+                    <descripcion>EFECTIVO-CHEQUE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>12</codigoClasificador>
+                    <descripcion>EFECTIVO-VALES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>13</codigoClasificador>
+                    <descripcion>EFECTIVO – TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>14</codigoClasificador>
+                    <descripcion>EFECTIVO-DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>15</codigoClasificador>
+                    <descripcion>EFECTIVO – TRANSFERENCIA BANCARIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>16</codigoClasificador>
+                    <descripcion>TARJETA-CHEQUE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>17</codigoClasificador>
+                    <descripcion>TARJETA-VALES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>18</codigoClasificador>
+                    <descripcion>TARJETA-TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>19</codigoClasificador>
+                    <descripcion>TARJETA-DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>20</codigoClasificador>
+                    <descripcion>TARJETA-TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>21</codigoClasificador>
+                    <descripcion>VALES-TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>22</codigoClasificador>
+                    <descripcion>VALES – DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>23</codigoClasificador>
+                    <descripcion>VALES-TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>24</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA-DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>25</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA-TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>26</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>27</codigoClasificador>
+                    <descripcion>GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>30</codigoClasificador>
+                    <descripcion>GIFT-CARD OTROS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>31</codigoClasificador>
+                    <descripcion>CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>32</codigoClasificador>
+                    <descripcion>BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>33</codigoClasificador>
+                    <descripcion>PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>34</codigoClasificador>
+                    <descripcion>EFECTIVO – PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>35</codigoClasificador>
+                    <descripcion>EFECTIVO – GIFT CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>36</codigoClasificador>
+                    <descripcion>EFECTIVO – CANAL PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>37</codigoClasificador>
+                    <descripcion>EFECTIVO – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>38</codigoClasificador>
+                    <descripcion>EFECTIVO – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>39</codigoClasificador>
+                    <descripcion>TARJETA – PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>40</codigoClasificador>
+                    <descripcion>TARJETA – GIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>41</codigoClasificador>
+                    <descripcion>TARJETA – CANAL PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>42</codigoClasificador>
+                    <descripcion>TARJETA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>43</codigoClasificador>
+                    <descripcion>TARJETA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>44</codigoClasificador>
+                    <descripcion>CHEQUE – VALES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>45</codigoClasificador>
+                    <descripcion>CHEQUE – PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>46</codigoClasificador>
+                    <descripcion>CHEQUE – TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>47</codigoClasificador>
+                    <descripcion>CHEQUE – DEPOSITO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>48</codigoClasificador>
+                    <descripcion>CHEQUE – SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>49</codigoClasificador>
+                    <descripcion>CHEQUE – GIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>50</codigoClasificador>
+                    <descripcion>CHEQUE – CANAL PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>51</codigoClasificador>
+                    <descripcion>CHEQUE – BILLETERA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>52</codigoClasificador>
+                    <descripcion>CHEQUE – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>53</codigoClasificador>
+                    <descripcion>VALES – GIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>54</codigoClasificador>
+                    <descripcion>VALES – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>55</codigoClasificador>
+                    <descripcion>VALES – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>56</codigoClasificador>
+                    <descripcion>VALES – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>57</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>58</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>59</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>60</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – GIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>61</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – CANAL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>62</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – BILLETERA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>63</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>64</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>65</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>66</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>67</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>68</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>69</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>70</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>71</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>72</codigoClasificador>
+                    <descripcion>SWIFT – GIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>73</codigoClasificador>
+                    <descripcion>SWIFT – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>74</codigoClasificador>
+                    <descripcion>SWIFT – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>75</codigoClasificador>
+                    <descripcion>SWIFT – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>76</codigoClasificador>
+                    <descripcion>GIFT-CARD – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>77</codigoClasificador>
+                    <descripcion>GIFT – BILLETERA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>78</codigoClasificador>
+                    <descripcion>GIFT – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>79</codigoClasificador>
+                    <descripcion>CANAL DE PAGO – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>80</codigoClasificador>
+                    <descripcion>CANAL DE PAGO – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>81</codigoClasificador>
+                    <descripcion>BILLETERA MOVIL – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>82</codigoClasificador>
+                    <descripcion>EFECTIVO - TARJETA - PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>83</codigoClasificador>
+                    <descripcion>EFECTIVO - TARJETA - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>84</codigoClasificador>
+                    <descripcion>EFECTIVO - TARJETA - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>85</codigoClasificador>
+                    <descripcion>EFECTIVO - TARJETA - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>86</codigoClasificador>
+                    <descripcion>EFECTIVO - TARJETA - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>87</codigoClasificador>
+                    <descripcion>EFECTIVO - TARJETA - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>88</codigoClasificador>
+                    <descripcion>EFECTIVO - TARJETA - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>89</codigoClasificador>
+                    <descripcion>EFECTIVO - TARJETA - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>90</codigoClasificador>
+                    <descripcion>EFECTIVO – CHEQUE - PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>91</codigoClasificador>
+                    <descripcion>EFECTIVO – CHEQUE - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>92</codigoClasificador>
+                    <descripcion>EFECTIVO – CHEQUE - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>93</codigoClasificador>
+                    <descripcion>EFECTIVO – CHEQUE - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>94</codigoClasificador>
+                    <descripcion>EFECTIVO – CHEQUE - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>95</codigoClasificador>
+                    <descripcion>EFECTIVO – CHEQUE - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>96</codigoClasificador>
+                    <descripcion>EFECTIVO – CHEQUE - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>97</codigoClasificador>
+                    <descripcion>EFECTIVO – CHEQUE - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>98</codigoClasificador>
+                    <descripcion>EFECTIVO – VALES - PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>99</codigoClasificador>
+                    <descripcion>EFECTIVO – VALES - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>100</codigoClasificador>
+                    <descripcion>EFECTIVO – VALES - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>101</codigoClasificador>
+                    <descripcion>EFECTIVO – VALES - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>102</codigoClasificador>
+                    <descripcion>EFECTIVO – VALES - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>103</codigoClasificador>
+                    <descripcion>EFECTIVO – VALES - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>104</codigoClasificador>
+                    <descripcion>EFECTIVO – VALES - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>105</codigoClasificador>
+                    <descripcion>EFECTIVO – VALES - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>106</codigoClasificador>
+                    <descripcion>EFECTIVO – PAGO POSTERIOR - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>107</codigoClasificador>
+                    <descripcion>EFECTIVO – PAGO POSTERIOR - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>108</codigoClasificador>
+                    <descripcion>EFECTIVO – PAGO POSTERIOR - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>109</codigoClasificador>
+                    <descripcion>EFECTIVO – PAGO POSTERIOR - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>110</codigoClasificador>
+                    <descripcion>EFECTIVO – PAGO POSTERIOR - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>111</codigoClasificador>
+                    <descripcion>EFECTIVO – PAGO POSTERIOR - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>112</codigoClasificador>
+                    <descripcion>EFECTIVO – PAGO POSTERIOR - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>113</codigoClasificador>
+                    <descripcion>EFECTIVO – TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>114</codigoClasificador>
+                    <descripcion>EFECTIVO – TRANSFERENCIA BANCARIA – TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>115</codigoClasificador>
+                    <descripcion>EFECTIVO – TRANSFERENCIA BANCARIA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>116</codigoClasificador>
+                    <descripcion>EFECTIVO – TRANSFERENCIA BANCARIA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>117</codigoClasificador>
+                    <descripcion>EFECTIVO – TRANSFERENCIA BANCARIA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>118</codigoClasificador>
+                    <descripcion>EFECTIVO – TRANSFERENCIA BANCARIA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>119</codigoClasificador>
+                    <descripcion>EFECTIVO – DEPOSITO EN CUENTA – TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>120</codigoClasificador>
+                    <descripcion>EFECTIVO – DEPOSITO EN CUENTA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>121</codigoClasificador>
+                    <descripcion>EFECTIVO – DEPOSITO EN CUENTA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>122</codigoClasificador>
+                    <descripcion>EFECTIVO – DEPOSITO EN CUENTA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>123</codigoClasificador>
+                    <descripcion>EFECTIVO – DEPOSITO EN CUENTA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>124</codigoClasificador>
+                    <descripcion>EFECTIVO – SWIFT - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>125</codigoClasificador>
+                    <descripcion>EFECTIVO – SWIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>126</codigoClasificador>
+                    <descripcion>EFECTIVO – SWIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>127</codigoClasificador>
+                    <descripcion>EFECTIVO – SWIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>128</codigoClasificador>
+                    <descripcion>EFECTIVO – GIFT CARD - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>129</codigoClasificador>
+                    <descripcion>EFECTIVO – GIFT CARD - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>130</codigoClasificador>
+                    <descripcion>EFECTIVO – GIFT CARD - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>131</codigoClasificador>
+                    <descripcion>EFECTIVO – CANAL PAGO - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>132</codigoClasificador>
+                    <descripcion>EFECTIVO – CANAL PAGO - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>133</codigoClasificador>
+                    <descripcion>EFECTIVO – BILLETERA MOVIL - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>134</codigoClasificador>
+                    <descripcion>TARJETA – CHEQUE - PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>135</codigoClasificador>
+                    <descripcion>TARJETA – CHEQUE - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>136</codigoClasificador>
+                    <descripcion>TARJETA – CHEQUE - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>137</codigoClasificador>
+                    <descripcion>TARJETA – CHEQUE - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>138</codigoClasificador>
+                    <descripcion>TARJETA – CHEQUE - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>139</codigoClasificador>
+                    <descripcion>TARJETA – CHEQUE - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>140</codigoClasificador>
+                    <descripcion>TARJETA – CHEQUE - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>141</codigoClasificador>
+                    <descripcion>TARJETA – CHEQUE - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>142</codigoClasificador>
+                    <descripcion>TARJETA – VALES - PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>143</codigoClasificador>
+                    <descripcion>TARJETA – VALES - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>144</codigoClasificador>
+                    <descripcion>TARJETA – VALES - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>145</codigoClasificador>
+                    <descripcion>TARJETA – VALES - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>146</codigoClasificador>
+                    <descripcion>TARJETA – VALES - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>147</codigoClasificador>
+                    <descripcion>TARJETA – VALES - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>148</codigoClasificador>
+                    <descripcion>TARJETA – VALES - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>149</codigoClasificador>
+                    <descripcion>TARJETA – VALES - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>150</codigoClasificador>
+                    <descripcion>TARJETA – PAGO POSTERIOR - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>151</codigoClasificador>
+                    <descripcion>TARJETA – PAGO POSTERIOR - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>152</codigoClasificador>
+                    <descripcion>TARJETA – PAGO POSTERIOR - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>153</codigoClasificador>
+                    <descripcion>TARJETA – PAGO POSTERIOR - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>154</codigoClasificador>
+                    <descripcion>TARJETA – PAGO POSTERIOR - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>155</codigoClasificador>
+                    <descripcion>TARJETA – PAGO POSTERIOR - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>156</codigoClasificador>
+                    <descripcion>TARJETA – PAGO POSTERIOR - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>157</codigoClasificador>
+                    <descripcion>TARJETA – TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>158</codigoClasificador>
+                    <descripcion>TARJETA – TRANSFERENCIA BANCARIA - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>159</codigoClasificador>
+                    <descripcion>TARJETA – TRANSFERENCIA BANCARIA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>160</codigoClasificador>
+                    <descripcion>TARJETA – TRANSFERENCIA BANCARIA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>161</codigoClasificador>
+                    <descripcion>TARJETA – TRANSFERENCIA BANCARIA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>162</codigoClasificador>
+                    <descripcion>TARJETA – TRANSFERENCIA BANCARIA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>163</codigoClasificador>
+                    <descripcion>TARJETA – DEPOSITO EN CUENTA – TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>164</codigoClasificador>
+                    <descripcion>TARJETA – DEPOSITO EN CUENTA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>165</codigoClasificador>
+                    <descripcion>TARJETA – DEPOSITO EN CUENTA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>166</codigoClasificador>
+                    <descripcion>TARJETA – DEPOSITO EN CUENTA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>167</codigoClasificador>
+                    <descripcion>TARJETA – DEPOSITO EN CUENTA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>168</codigoClasificador>
+                    <descripcion>TARJETA – SWIFT - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>169</codigoClasificador>
+                    <descripcion>TARJETA – SWIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>170</codigoClasificador>
+                    <descripcion>TARJETA – SWIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>171</codigoClasificador>
+                    <descripcion>TARJETA – SWIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>172</codigoClasificador>
+                    <descripcion>TARJETA – GIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>173</codigoClasificador>
+                    <descripcion>TARJETA – GIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>174</codigoClasificador>
+                    <descripcion>TARJETA – GIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>175</codigoClasificador>
+                    <descripcion>TARJETA – CANAL PAGO - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>176</codigoClasificador>
+                    <descripcion>TARJETA – CANAL PAGO - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>177</codigoClasificador>
+                    <descripcion>TARJETA – BILLETERA MOVIL - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>178</codigoClasificador>
+                    <descripcion>CHEQUE – VALES - PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>179</codigoClasificador>
+                    <descripcion>CHEQUE – VALES - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>180</codigoClasificador>
+                    <descripcion>CHEQUE – VALES - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>181</codigoClasificador>
+                    <descripcion>CHEQUE – VALES - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>182</codigoClasificador>
+                    <descripcion>CHEQUE – VALES - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>183</codigoClasificador>
+                    <descripcion>CHEQUE – VALES - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>184</codigoClasificador>
+                    <descripcion>CHEQUE – VALES - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>185</codigoClasificador>
+                    <descripcion>CHEQUE – VALES - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>186</codigoClasificador>
+                    <descripcion>CHEQUE – PAGO POSTERIOR - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>187</codigoClasificador>
+                    <descripcion>CHEQUE – PAGO POSTERIOR - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>188</codigoClasificador>
+                    <descripcion>CHEQUE – PAGO POSTERIOR - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>189</codigoClasificador>
+                    <descripcion>CHEQUE – PAGO POSTERIOR - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>190</codigoClasificador>
+                    <descripcion>CHEQUE – PAGO POSTERIOR - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>191</codigoClasificador>
+                    <descripcion>CHEQUE – PAGO POSTERIOR - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>192</codigoClasificador>
+                    <descripcion>CHEQUE – PAGO POSTERIOR - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>193</codigoClasificador>
+                    <descripcion>CHEQUE – TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>194</codigoClasificador>
+                    <descripcion>CHEQUE – TRANSFERENCIA BANCARIA – TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>195</codigoClasificador>
+                    <descripcion>CHEQUE – TRANSFERENCIA BANCARIA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>196</codigoClasificador>
+                    <descripcion>CHEQUE – TRANSFERENCIA BANCARIA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>197</codigoClasificador>
+                    <descripcion>CHEQUE – TRANSFERENCIA BANCARIA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>198</codigoClasificador>
+                    <descripcion>CHEQUE – TRANSFERENCIA BANCARIA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>199</codigoClasificador>
+                    <descripcion>CHEQUE – DEPOSITO EN CUENTA - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>200</codigoClasificador>
+                    <descripcion>CHEQUE – DEPOSITO EN CUENTA - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>201</codigoClasificador>
+                    <descripcion>CHEQUE – DEPOSITO EN CUENTA - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>202</codigoClasificador>
+                    <descripcion>CHEQUE – DEPOSITO EN CUENTA - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>203</codigoClasificador>
+                    <descripcion>CHEQUE – DEPOSITO EN CUENTA - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>204</codigoClasificador>
+                    <descripcion>CHEQUE – SWIFT - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>205</codigoClasificador>
+                    <descripcion>CHEQUE – SWIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>206</codigoClasificador>
+                    <descripcion>CHEQUE – SWIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>207</codigoClasificador>
+                    <descripcion>CHEQUE – SWIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>208</codigoClasificador>
+                    <descripcion>CHEQUE – GIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>209</codigoClasificador>
+                    <descripcion>CHEQUE – GIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>210</codigoClasificador>
+                    <descripcion>CHEQUE – GIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>211</codigoClasificador>
+                    <descripcion>CHEQUE – CANAL PAGO - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>212</codigoClasificador>
+                    <descripcion>CHEQUE – CANAL PAGO - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>213</codigoClasificador>
+                    <descripcion>CHEQUE – BILLETERA MOVIL – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>214</codigoClasificador>
+                    <descripcion>VALES – SWIFT - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>215</codigoClasificador>
+                    <descripcion>VALES – SWIFT - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>216</codigoClasificador>
+                    <descripcion>VALES – SWIFT - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>217</codigoClasificador>
+                    <descripcion>VALES – SWIFT - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>218</codigoClasificador>
+                    <descripcion>VALES – SWIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>219</codigoClasificador>
+                    <descripcion>VALES – SWIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>220</codigoClasificador>
+                    <descripcion>VALES – SWIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>221</codigoClasificador>
+                    <descripcion>VALES – GIFT - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>222</codigoClasificador>
+                    <descripcion>VALES – GIFT - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>223</codigoClasificador>
+                    <descripcion>VALES – GIFT-CARD – TARJETA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>224</codigoClasificador>
+                    <descripcion>VALES – GIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>225</codigoClasificador>
+                    <descripcion>VALES – GIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>226</codigoClasificador>
+                    <descripcion>VALES – GIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>227</codigoClasificador>
+                    <descripcion>VALES – CANAL DE PAGO – TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>228</codigoClasificador>
+                    <descripcion>VALES – CANAL DE PAGO – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>229</codigoClasificador>
+                    <descripcion>VALES – CANAL DE PAGO – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>230</codigoClasificador>
+                    <descripcion>VALES – CANAL DE PAGO – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>231</codigoClasificador>
+                    <descripcion>VALES – CANAL DE PAGO – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>232</codigoClasificador>
+                    <descripcion>VALES – BILLETERA MOVIL – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>233</codigoClasificador>
+                    <descripcion>VALES – BILLETERA MOVIL – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>234</codigoClasificador>
+                    <descripcion>VALES – BILLETERA MOVIL – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>235</codigoClasificador>
+                    <descripcion>VALES – BILLETERA MOVIL – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>236</codigoClasificador>
+                    <descripcion>VALES – PAGO ONLINE - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>237</codigoClasificador>
+                    <descripcion>VALES – PAGO ONLINE - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>238</codigoClasificador>
+                    <descripcion>VALES – PAGO ONLINE - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>239</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>240</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – TRANSFERENCIA BANCARIA – TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>241</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – TRANSFERENCIA BANCARIA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>242</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – TRANSFERENCIA BANCARIA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>243</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – TRANSFERENCIA BANCARIA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>244</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – TRANSFERENCIA BANCARIA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>245</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – DEPOSITO EN CUENTA – TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>246</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – DEPOSITO EN CUENTA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>247</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – DEPOSITO EN CUENTA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>248</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – DEPOSITO EN CUENTA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>249</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – DEPOSITO EN CUENTA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>250</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – SWIFT - GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>251</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – SWIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>252</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – SWIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>253</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – SWIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>254</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – GIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>255</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – GIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>256</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – GIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>257</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – CANAL DE PAGO - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>258</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – CANAL DE PAGO - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>259</codigoClasificador>
+                    <descripcion>PAGO POSTERIOR – BILLETERA MOVIL - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>260</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA – TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>261</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>262</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>263</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – DEPOSITO EN CUENTA – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>264</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA– DEPOSITO EN CUENTA – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>265</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – SWIFT – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>266</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – SWIFT – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>267</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – SWIFT – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>268</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – SWIFT – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>269</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – GIFT-CARD – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>270</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – GIFT-CARD – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>271</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – GIFT-CARD – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>272</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – CANAL DE PAGO – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>273</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – CANAL DE PAGO – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>274</codigoClasificador>
+                    <descripcion>TRANSFERENCIA BANCARIA – BILLETERA MOVIL – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>275</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – SWIFT – GIFT-CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>276</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – SWIFT – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>277</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – SWIFT – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>278</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – SWIFT – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>279</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – GIFT-CARD – CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>280</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – GIFT-CARD – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>281</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – GIFT-CARD – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>282</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – CANAL DE PAGO – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>283</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – CANAL DE PAGO – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>284</codigoClasificador>
+                    <descripcion>DEPOSITO EN CUENTA – BILLETERA MOVIL – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>285</codigoClasificador>
+                    <descripcion>SWIFT – GIFT - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>286</codigoClasificador>
+                    <descripcion>SWIFT – GIFT - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>287</codigoClasificador>
+                    <descripcion>SWIFT – GIFT - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>288</codigoClasificador>
+                    <descripcion>SWIFT – CANAL DE PAGO – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>289</codigoClasificador>
+                    <descripcion>SWIFT – CANAL DE PAGO – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>290</codigoClasificador>
+                    <descripcion>SWIFT – BILLETERA MOVIL – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>291</codigoClasificador>
+                    <descripcion>GIFT-CARD – CANAL DE PAGO – BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>292</codigoClasificador>
+                    <descripcion>GIFT-CARD – CANAL DE PAGO – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>293</codigoClasificador>
+                    <descripcion>GIFT-CARD – BILLETERA MOVIL - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>294</codigoClasificador>
+                    <descripcion>CANAL DE PAGO – BILLETERA MOVIL – PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>295</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>296</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO – EFECTIVO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>297</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO -TARJETA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>298</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO – CHEQUE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>299</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO - VALE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>300</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO - PAGO POSTERIOR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>301</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO - TRANSFERENCIA BANCARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>302</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO - DEPOSITO EN CUENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>303</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO - TRANSFERENCIA SWIFT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>304</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO - GIFT CARD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>305</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO - CANAL DE PAGO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>306</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO - BILLETERA MOVIL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>307</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO - PAGO ONLINE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>308</codigoClasificador>
+                    <descripcion>DEBITO AUTOMATICO – OTRO</descripcion>
+                </listaCodigos>
+            </RespuestaListaParametricas>
+        </ns2:sincronizarParametricaTipoMetodoPagoResponse>
+    </soap:Body>
+</soap:Envelope>

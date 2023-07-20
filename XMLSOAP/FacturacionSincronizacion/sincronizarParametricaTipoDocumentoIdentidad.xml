@@ -1,0 +1,29 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:sincronizarParametricaTipoDocumentoIdentidadResponse xmlns:ns2="https://siat.impuestos.gob.bo/">
+			<RespuestaListaParametricas>
+			<transaccion>true</transaccion>
+			<listaCodigos>
+				<codigoClasificador>1</codigoClasificador>
+				<descripcion>CI - CEDULA DE IDENTIDAD</descripcion>
+			</listaCodigos>
+			<listaCodigos>
+				<codigoClasificador>2</codigoClasificador>
+				<descripcion>CEX - CEDULA DE IDENTIDAD DE EXTRANJERO</descripcion>
+			</listaCodigos>
+			<listaCodigos>
+				<codigoClasificador>3</codigoClasificador>
+				<descripcion>PAS - PASAPORTE</descripcion>
+			</listaCodigos>
+			<listaCodigos>
+				<codigoClasificador>4</codigoClasificador>
+				<descripcion>OD - OTRO DOCUMENTO DE IDENTIDAD</descripcion>
+			</listaCodigos>
+			<listaCodigos>
+				<codigoClasificador>5</codigoClasificador>
+				<descripcion>NIT - NÚMERO DE IDENTIFICACIÓN TRIBUTARIA</descripcion>
+			</listaCodigos>
+			</RespuestaListaParametricas>
+		</ns2:sincronizarParametricaTipoDocumentoIdentidadResponse>
+	</soap:Body>
+</soap:Envelope>

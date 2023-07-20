@@ -1,0 +1,39 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:sincronizarActividadesResponse xmlns:ns2="https://siat.impuestos.gob.bo/">
+			<RespuestaListaActividades>
+				<transaccion>true</transaccion>
+				<listaActividades>
+					<codigoCaeb>620901</codigoCaeb>
+					<descripcion>OTRAS ACTIVIDADES DE INFORMÁTICA</descripcion>
+					<tipoActividad>P</tipoActividad>
+				</listaActividades>
+				<listaActividades>
+					<codigoCaeb>001220</codigoCaeb>
+					<descripcion>ACTIVIDADES SOLO DE IMPORTACIÓN</descripcion>
+					<tipoActividad>S</tipoActividad>
+				</listaActividades>
+				<listaActividades>
+					<codigoCaeb>476000</codigoCaeb>
+					<descripcion>VENTA AL POR MENOR DE EQUIPO DE OFICINA, LIBROS, PERIÓDICOS Y PAPELERÍA Y EQUIPO FOTOGRÁFICO, ÓPTICO Y DE PRECISIÓN</descripcion>
+					<tipoActividad>S</tipoActividad>
+				</listaActividades>
+				<listaActividades>
+					<codigoCaeb>821900</codigoCaeb>
+					<descripcion>SERVICIO DE FOTOCOPIADORAS Y TERMOCOPIADORAS</descripcion>
+					<tipoActividad>S</tipoActividad>
+				</listaActividades>
+				<listaActividades>
+					<codigoCaeb>951000</codigoCaeb>
+					<descripcion>MANTENIMIENTO Y REPARACIÓN MAQ DE OFICINA  E INFORMÁTICA</descripcion>
+					<tipoActividad>S</tipoActividad>
+				</listaActividades>
+				<listaActividades>
+					<codigoCaeb>692000</codigoCaeb>
+					<descripcion>ACTIVIDADES DE CONTABILIDAD, TENEDURÍA DE LIBROS Y AUDITORIA; ASESORAMIENTO EN MATERIA DE IMPUESTOS</descripcion>
+					<tipoActividad>S</tipoActividad>
+				</listaActividades>
+			</RespuestaListaActividades>
+		</ns2:sincronizarActividadesResponse>
+	</soap:Body>
+</soap:Envelope>

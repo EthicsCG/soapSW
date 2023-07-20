@@ -1,0 +1,621 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:sincronizarParametricaTipoMonedaResponse xmlns:ns2="https://siat.impuestos.gob.bo/">
+            <RespuestaListaParametricas>
+                <transaccion>true</transaccion>
+                <listaCodigos>
+                    <codigoClasificador>1</codigoClasificador>
+                    <descripcion>BOLIVIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>2</codigoClasificador>
+                    <descripcion>DOLAR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>3</codigoClasificador>
+                    <descripcion>AFGANI</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>4</codigoClasificador>
+                    <descripcion>LEK</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>5</codigoClasificador>
+                    <descripcion>LIBRA ESTERLINA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>6</codigoClasificador>
+                    <descripcion>DINAR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>7</codigoClasificador>
+                    <descripcion>EURO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>8</codigoClasificador>
+                    <descripcion>KUANZA DE ANGOLA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>9</codigoClasificador>
+                    <descripcion>PESO ARGENTINO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>10</codigoClasificador>
+                    <descripcion>DRAM ARMENIO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>11</codigoClasificador>
+                    <descripcion>FLORÍN ARUBANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>12</codigoClasificador>
+                    <descripcion>DÓLAR AUSTRALIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>13</codigoClasificador>
+                    <descripcion>MANAT AZERBAYANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>14</codigoClasificador>
+                    <descripcion>DÓLAR DE LAS BAHAMAS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>15</codigoClasificador>
+                    <descripcion>DINAR DE BARÉIN</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>16</codigoClasificador>
+                    <descripcion>TAKA DE BANGLADÉS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>17</codigoClasificador>
+                    <descripcion>DÓLAR DE LAS BARBADOS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>18</codigoClasificador>
+                    <descripcion>RUBLO BIELORRUSO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>19</codigoClasificador>
+                    <descripcion>DÓLAR BELICEÑO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>20</codigoClasificador>
+                    <descripcion>GULTRUM BUTANÉS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>21</codigoClasificador>
+                    <descripcion>MARCO CONVERTIBLE DE BOSNIA Y HERZEGOVINA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>22</codigoClasificador>
+                    <descripcion>PULA DE BOTSUANA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>23</codigoClasificador>
+                    <descripcion>REAL BRASILEÑO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>24</codigoClasificador>
+                    <descripcion>DÓLAR DE BRUNEI</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>25</codigoClasificador>
+                    <descripcion>LEVA BÚLGARO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>26</codigoClasificador>
+                    <descripcion>FRANCO CFA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>27</codigoClasificador>
+                    <descripcion>KIAT DE BIRMANIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>28</codigoClasificador>
+                    <descripcion>FRANCO BURUNDÉS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>29</codigoClasificador>
+                    <descripcion>RIEL CAMBOYANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>30</codigoClasificador>
+                    <descripcion>DÓLAR CANADIENSE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>31</codigoClasificador>
+                    <descripcion>ESCUDO DE CABO VERDE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>32</codigoClasificador>
+                    <descripcion>DÓLAR DE LAS ISLAS CAIMÁN</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>33</codigoClasificador>
+                    <descripcion>PESO CHILENO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>34</codigoClasificador>
+                    <descripcion>YUAN, RENMINBI</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>35</codigoClasificador>
+                    <descripcion>PESO COLOMBIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>36</codigoClasificador>
+                    <descripcion>FRANCO COMORANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>37</codigoClasificador>
+                    <descripcion>FRANCO CONGOLEÑO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>38</codigoClasificador>
+                    <descripcion>COLÓN COSTARRICENSE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>39</codigoClasificador>
+                    <descripcion>KUNA CROATA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>40</codigoClasificador>
+                    <descripcion>PESO CUBANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>41</codigoClasificador>
+                    <descripcion>FLORÍN DE LAS ANTILLAS NEERLANDESAS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>42</codigoClasificador>
+                    <descripcion>CORONA CHECA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>43</codigoClasificador>
+                    <descripcion>CORONA DANESA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>44</codigoClasificador>
+                    <descripcion>FRANCO YIBUTIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>45</codigoClasificador>
+                    <descripcion>PESO DOMINICANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>46</codigoClasificador>
+                    <descripcion>DÓLAR ESTADOUNIDENSE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>47</codigoClasificador>
+                    <descripcion>LIBRA EGIPCIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>48</codigoClasificador>
+                    <descripcion>COLÓN SALVADOREÑO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>49</codigoClasificador>
+                    <descripcion>NAKFA DE ERITREA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>50</codigoClasificador>
+                    <descripcion>BIR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>51</codigoClasificador>
+                    <descripcion>FRANCO CFP</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>52</codigoClasificador>
+                    <descripcion>DALASI GAMBIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>53</codigoClasificador>
+                    <descripcion>LARI GEORGIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>54</codigoClasificador>
+                    <descripcion>CEDI DE GANA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>55</codigoClasificador>
+                    <descripcion>LIBRA DE GIBRALTAR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>56</codigoClasificador>
+                    <descripcion>QUETZAL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>57</codigoClasificador>
+                    <descripcion>FRANCO GUINEANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>58</codigoClasificador>
+                    <descripcion>GURDE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>59</codigoClasificador>
+                    <descripcion>LEMPIRA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>60</codigoClasificador>
+                    <descripcion>FORINTO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>61</codigoClasificador>
+                    <descripcion>CORONA ISLANDESA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>62</codigoClasificador>
+                    <descripcion>RUPIA INDIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>63</codigoClasificador>
+                    <descripcion>RUPIA INDONESIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>64</codigoClasificador>
+                    <descripcion>RIAL IRANÍ</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>65</codigoClasificador>
+                    <descripcion>DINAR IRAKÍ</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>66</codigoClasificador>
+                    <descripcion>NUEVO SÉQUEL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>67</codigoClasificador>
+                    <descripcion>DÓLAR JAMAICANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>68</codigoClasificador>
+                    <descripcion>YEN</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>69</codigoClasificador>
+                    <descripcion>DINAR JORDANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>70</codigoClasificador>
+                    <descripcion>TENGUE KAZAJO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>71</codigoClasificador>
+                    <descripcion>CHELÍN KENIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>72</codigoClasificador>
+                    <descripcion>WON NORCOREANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>73</codigoClasificador>
+                    <descripcion>WON SURCOREANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>74</codigoClasificador>
+                    <descripcion>DINAR KUWAITÍ</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>75</codigoClasificador>
+                    <descripcion>SOM KIRGUÍS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>76</codigoClasificador>
+                    <descripcion>KIP</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>77</codigoClasificador>
+                    <descripcion>LATS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>78</codigoClasificador>
+                    <descripcion>LIBRA LIBANESA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>79</codigoClasificador>
+                    <descripcion>LOTI DE LESOTO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>80</codigoClasificador>
+                    <descripcion>DÓLAR LIBERIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>81</codigoClasificador>
+                    <descripcion>DINAR LIBIO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>82</codigoClasificador>
+                    <descripcion>LITAS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>83</codigoClasificador>
+                    <descripcion>PATACA DE MACAO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>84</codigoClasificador>
+                    <descripcion>DENAR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>85</codigoClasificador>
+                    <descripcion>ARIARI</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>86</codigoClasificador>
+                    <descripcion>KUACHA DE MALAUI</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>87</codigoClasificador>
+                    <descripcion>RINGIT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>88</codigoClasificador>
+                    <descripcion>RUFIYA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>89</codigoClasificador>
+                    <descripcion>UGUIYA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>90</codigoClasificador>
+                    <descripcion>RUPIA DE MAURICIO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>91</codigoClasificador>
+                    <descripcion>PESO MEXICANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>92</codigoClasificador>
+                    <descripcion>DÓLAR MICRONESIO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>93</codigoClasificador>
+                    <descripcion>LEU MOLDAVO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>94</codigoClasificador>
+                    <descripcion>TUGRIK MONGOL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>95</codigoClasificador>
+                    <descripcion>DÍRHAM</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>96</codigoClasificador>
+                    <descripcion>METICAL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>97</codigoClasificador>
+                    <descripcion>DÓLAR DE NAMIBIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>98</codigoClasificador>
+                    <descripcion>DÓLAR NAURUANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>99</codigoClasificador>
+                    <descripcion>RUPIA NEPALÍ</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>100</codigoClasificador>
+                    <descripcion>DÓLAR DE NUEVA ZELANDA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>101</codigoClasificador>
+                    <descripcion>CÓRDOBA NICARAGÜENSE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>102</codigoClasificador>
+                    <descripcion>NAIRA NIGERIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>103</codigoClasificador>
+                    <descripcion>CORONA NORUEGA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>104</codigoClasificador>
+                    <descripcion>RIAL DE OMÁN</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>105</codigoClasificador>
+                    <descripcion>RUPIA PAKISTANÍ</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>106</codigoClasificador>
+                    <descripcion>BALBOA PANAMEÑO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>107</codigoClasificador>
+                    <descripcion>KINA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>108</codigoClasificador>
+                    <descripcion>GUARANÍ PARAGUAYO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>109</codigoClasificador>
+                    <descripcion>NUEVO SOL PERUANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>110</codigoClasificador>
+                    <descripcion>PESO FILIPINO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>111</codigoClasificador>
+                    <descripcion>ZLOTI</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>112</codigoClasificador>
+                    <descripcion>RIAL CATARÍ</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>113</codigoClasificador>
+                    <descripcion>LEU RUMANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>114</codigoClasificador>
+                    <descripcion>RUBLO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>115</codigoClasificador>
+                    <descripcion>FRANCO RUANDÉS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>116</codigoClasificador>
+                    <descripcion>DÓLAR DEL CARIBE ORIENTAL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>117</codigoClasificador>
+                    <descripcion>TALA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>118</codigoClasificador>
+                    <descripcion>DOBRA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>119</codigoClasificador>
+                    <descripcion>RIAL SAUDÍ</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>120</codigoClasificador>
+                    <descripcion>DINAR SERBIO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>121</codigoClasificador>
+                    <descripcion>RUPIA SEYCHELLENSE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>122</codigoClasificador>
+                    <descripcion>LEONA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>123</codigoClasificador>
+                    <descripcion>DÓLAR SINGAPURENSE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>124</codigoClasificador>
+                    <descripcion>DÓLAR SALOMONENSE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>125</codigoClasificador>
+                    <descripcion>CHELÍN SOMALÍ</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>126</codigoClasificador>
+                    <descripcion>RAND</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>127</codigoClasificador>
+                    <descripcion>LIBRA SURSUDANESA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>128</codigoClasificador>
+                    <descripcion>RUPIA CEILANDESA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>129</codigoClasificador>
+                    <descripcion>LIBRA SUDANESA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>130</codigoClasificador>
+                    <descripcion>DÓLAR SURINAMÉS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>131</codigoClasificador>
+                    <descripcion>LILANGENI</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>132</codigoClasificador>
+                    <descripcion>CORONA SUECA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>133</codigoClasificador>
+                    <descripcion>FRANCO SUIZO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>134</codigoClasificador>
+                    <descripcion>LIBRA SIRIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>135</codigoClasificador>
+                    <descripcion>NUEVO DÓLAR DE TAIWÁN</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>136</codigoClasificador>
+                    <descripcion>SOMONI</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>137</codigoClasificador>
+                    <descripcion>CHELÍN TANZANIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>138</codigoClasificador>
+                    <descripcion>BAT</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>139</codigoClasificador>
+                    <descripcion>PAANGA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>140</codigoClasificador>
+                    <descripcion>DÓLAR TRINITENSE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>141</codigoClasificador>
+                    <descripcion>DINAR TUNECINO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>142</codigoClasificador>
+                    <descripcion>LIRA TURCA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>143</codigoClasificador>
+                    <descripcion>MANAT TURCOMANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>144</codigoClasificador>
+                    <descripcion>CHELÍN UGANDÉS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>145</codigoClasificador>
+                    <descripcion>GRIVNA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>146</codigoClasificador>
+                    <descripcion>PESO URUGUAYO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>147</codigoClasificador>
+                    <descripcion>SUM</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>148</codigoClasificador>
+                    <descripcion>VATU DO VANUATU</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>149</codigoClasificador>
+                    <descripcion>BOLÍVAR FUERTE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>150</codigoClasificador>
+                    <descripcion>DONG</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>151</codigoClasificador>
+                    <descripcion>RIAL YEMENÍ</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>152</codigoClasificador>
+                    <descripcion>KUACHA ZAMBIANO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>153</codigoClasificador>
+                    <descripcion>DÓLAR ZIMBABUENSE</descripcion>
+                </listaCodigos>
+            </RespuestaListaParametricas>
+        </ns2:sincronizarParametricaTipoMonedaResponse>
+    </soap:Body>
+</soap:Envelope>

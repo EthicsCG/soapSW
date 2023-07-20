@@ -1,0 +1,203 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:sincronizarParametricaTipoDocumentoSectorResponse
+            xmlns:ns2="https://siat.impuestos.gob.bo/">
+            <RespuestaListaParametricas>
+                <transaccion>true</transaccion>
+                <listaCodigos>
+                    <codigoClasificador>1</codigoClasificador>
+                    <descripcion>FACTURA COMPRA-VENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>2</codigoClasificador>
+                    <descripcion>FACTURA DE ALQUILER DE BIENES INMUEBLES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>3</codigoClasificador>
+                    <descripcion>FACTURA COMERCIAL DE EXPORTACIÓN</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>4</codigoClasificador>
+                    <descripcion>FACTURA COMERCIAL DE EXPORTACIÓN EN LIBRE CONSIGNACIÓN</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>5</codigoClasificador>
+                    <descripcion>FACTURA DE ZONA FRANCA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>6</codigoClasificador>
+                    <descripcion>FACTURA DE SERVICIO TURÍSTICO Y HOSPEDAJE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>7</codigoClasificador>
+                    <descripcion>FACTURA DE COMERCIALIZACIÓN DE ALIMENTOS – SEGURIDAD </descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>8</codigoClasificador>
+                    <descripcion>FACTURA DE TASA CERO POR VENTA DE LIBROS Y TRANSPORTE INTERNACIONAL
+                        DE CARGA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>9</codigoClasificador>
+                    <descripcion>FACTURA DE COMPRA Y VENTA DE MONEDA EXTRANJERA </descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>10</codigoClasificador>
+                    <descripcion>FACTURA DUTTY FREE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>11</codigoClasificador>
+                    <descripcion>FACTURA SECTORES EDUCATIVOS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>12</codigoClasificador>
+                    <descripcion>FACTURA DE COMERCIALIZACIÓN DE HIDROCARBUROS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>13</codigoClasificador>
+                    <descripcion>FACTURA DE SERVICIOS BÁSICOS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>14</codigoClasificador>
+                    <descripcion>FACTURA PRODUCTOS ALCANZADOS POR EL ICE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>15</codigoClasificador>
+                    <descripcion>FACTURA DE ENTIDADES FINANCIERAS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>16</codigoClasificador>
+                    <descripcion>FACTURA DE HOTELES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>17</codigoClasificador>
+                    <descripcion>FACTURA DE HOSPITALES/CLÍNICAS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>18</codigoClasificador>
+                    <descripcion>FACTURA DE JUEGOS DE AZAR</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>19</codigoClasificador>
+                    <descripcion>FACTURA HIDROCARBUROS ALCANZADA IEHD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>20</codigoClasificador>
+                    <descripcion>FACTURA COMERCIAL DE EXPORTACIÓN DE MINERALES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>21</codigoClasificador>
+                    <descripcion>FACTURA VENTA INTERNA MINERALES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>22</codigoClasificador>
+                    <descripcion>FACTURA TELECOMUNICACIONES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>23</codigoClasificador>
+                    <descripcion>FACTURA PREVALORADA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>24</codigoClasificador>
+                    <descripcion>NOTA DE CRÉDITO-DÉBITO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>28</codigoClasificador>
+                    <descripcion>FACTURA COMERCIAL DE EXPORTACIÓN DE SERVICIOS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>29</codigoClasificador>
+                    <descripcion>NOTA DE CONCILIACION</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>30</codigoClasificador>
+                    <descripcion>BOLETO AEREO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>31</codigoClasificador>
+                    <descripcion>FACTURA DE SUMINISTRO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>32</codigoClasificador>
+                    <descripcion>FACTURA ICE ZONA FRANCA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>33</codigoClasificador>
+                    <descripcion>FACTURA TASA CERO BIENES CAPITAL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>34</codigoClasificador>
+                    <descripcion>FACTURA DE SEGUROS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>35</codigoClasificador>
+                    <descripcion>FACTURA COMPRA VENTA BONIFICACIONES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>36</codigoClasificador>
+                    <descripcion>FACTURA PREVALORADA SDCF</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>37</codigoClasificador>
+                    <descripcion>FACTURA DE COMERCIALIZACIÓN DE GNV</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>38</codigoClasificador>
+                    <descripcion>FACTURA HIDROCARBUROS NO ALCANZADA IEHD</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>39</codigoClasificador>
+                    <descripcion>FACTURA COMERCIALIZACION GN y GLP</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>40</codigoClasificador>
+                    <descripcion>FACTURA DE SERVICIOS BÁSICOS ZF</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>41</codigoClasificador>
+                    <descripcion>FACTURA COMPRA VENTA TASAS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>42</codigoClasificador>
+                    <descripcion>FACTURA ALQUILER ZF</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>43</codigoClasificador>
+                    <descripcion>FACTURA COMERCIAL DE EXPORTACIÓN HIDROCARBUROS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>44</codigoClasificador>
+                    <descripcion>FACTURA IMPORTACION COMERCIALIZACION LUBRICANTES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>45</codigoClasificador>
+                    <descripcion>FACTURA COMERCIAL DE EXPORTACION PRECIO VENTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>46</codigoClasificador>
+                    <descripcion>FACTURA SECTORES EDUCATIVO ZONA FRANCA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>47</codigoClasificador>
+                    <descripcion>NOTA CREDITO DEBITO DESCUENTO</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>48</codigoClasificador>
+                    <descripcion>NOTA CREDITO DEBITO ICE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>49</codigoClasificador>
+                    <descripcion>FACTURA TELECOMUNICACIONES ZONA FRANCA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>50</codigoClasificador>
+                    <descripcion>FACTURA DE HOSPITALES/CLÍNICAS ZONA FRANCA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>51</codigoClasificador>
+                    <descripcion>FACTURA ENGARRAFADORAS</descripcion>
+                </listaCodigos>
+            </RespuestaListaParametricas>
+        </ns2:sincronizarParametricaTipoDocumentoSectorResponse>
+    </soap:Body>
+</soap:Envelope>

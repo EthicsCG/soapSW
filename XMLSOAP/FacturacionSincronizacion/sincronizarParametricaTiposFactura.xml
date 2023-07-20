@@ -1,0 +1,25 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:sincronizarParametricaTiposFacturaResponse xmlns:ns2="https://siat.impuestos.gob.bo/">
+            <RespuestaListaParametricas>
+                <transaccion>true</transaccion>
+                <listaCodigos>
+                    <codigoClasificador>1</codigoClasificador>
+                    <descripcion>FACTURA CON DERECHO A CREDITO FISCAL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>2</codigoClasificador>
+                    <descripcion>FACTURA SIN DERECHO A CREDITO FISCAL</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>3</codigoClasificador>
+                    <descripcion>DOCUMENTO DE AJUSTE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>4</codigoClasificador>
+                    <descripcion>DOCUMENTO EQUIVALENTE</descripcion>
+                </listaCodigos>
+            </RespuestaListaParametricas>
+        </ns2:sincronizarParametricaTiposFacturaResponse>
+    </soap:Body>
+</soap:Envelope>

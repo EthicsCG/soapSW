@@ -1,0 +1,33 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:sincronizarParametricaTipoPuntoVentaResponse xmlns:ns2="https://siat.impuestos.gob.bo/">
+            <RespuestaListaParametricas>
+                <transaccion>true</transaccion>
+                <listaCodigos>
+                    <codigoClasificador>1</codigoClasificador>
+                    <descripcion>PUNTO VENTA COMISIONISTA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>2</codigoClasificador>
+                    <descripcion>PUNTO VENTA VENTANILLA DE COBRANZA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>3</codigoClasificador>
+                    <descripcion>PUNTO DE VENTA MOVILES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>4</codigoClasificador>
+                    <descripcion>PUNTO DE VENTA YPFB</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>5</codigoClasificador>
+                    <descripcion>PUNTO DE VENTA CAJEROS</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>6</codigoClasificador>
+                    <descripcion>PUNTO DE VENTA CONJUNTA</descripcion>
+                </listaCodigos>
+            </RespuestaListaParametricas>
+        </ns2:sincronizarParametricaTipoPuntoVentaResponse>
+    </soap:Body>
+</soap:Envelope>

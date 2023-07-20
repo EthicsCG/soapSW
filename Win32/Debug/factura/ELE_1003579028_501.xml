@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<facturaElectronicaEstandar xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="facturaElectronicaEstandar.xsd">
+<cabecera>
+<nitEmisor>1003579028</nitEmisor>
+<numeroFactura>501</numeroFactura>
+<cuf>1eecd7b50ef2afafc46b736ba2a85</cuf>
+<cufd>4719B515E30B02658C27CBF298B9FEFD</cufd>
+<codigoSucursal>0</codigoSucursal>
+<direccion>Calle Ballivian Nro. 1333</direccion>
+<codigoPuntoVenta xsi:nil="true"/>
+<fechaEmision>2019-06-14T11:31:53.085</fechaEmision>
+<nombreRazonSocial>Milena Perez</nombreRazonSocial>
+<codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+<numeroDocumento>4308890</numeroDocumento>
+<complemento xsi:nil="true"/>
+<codigoCliente>4308890</codigoCliente>
+<codigoMetodoPago>1</codigoMetodoPago>
+<numeroTarjeta xsi:nil="true"/>
+<montoTotal>100.0</montoTotal>
+<montoDescuento xsi:nil="true"/>
+<codigoMoneda>689</codigoMoneda>
+<tipoCambio>1.0</tipoCambio>
+<montoTotalMoneda>100.0</montoTotalMoneda>
+<leyenda>El proveedor debera suministrar el servicio en las modalidades y terminos ofertados o convenidos</leyenda>
+<usuario>FacturadorPrueba</usuario>
+<codigoDocumentoSector>1</codigoDocumentoSector>
+<codigoExcepcionDocumento xsi:nil="true"/>
+</cabecera>
+<detalle>
+<actividadEconomica>71002</actividadEconomica>
+<codigoProductoSin>40050</codigoProductoSin>
+<codigoProducto>ME-40050</codigoProducto>
+<descripcion>archivadores de palanca</descripcion>
+<cantidad>5</cantidad>
+<unidadMedida>62</unidadMedida>
+<precioUnitario>20.0</precioUnitario>
+<montoDescuento xsi:nil="true"/>
+<subTotal>100.0</subTotal>
+<numeroSerie xsi:nil="true"/>
+<numeroImei xsi:nil="true"/>
+</detalle>
+</facturaElectronicaEstandar>

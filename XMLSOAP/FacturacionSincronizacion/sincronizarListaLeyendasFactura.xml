@@ -1,0 +1,205 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:sincronizarListaLeyendasFacturaResponse xmlns:ns2="https://siat.impuestos.gob.bo/">
+			<RespuestaListaParametricasLeyendas>
+				<transaccion>true</transaccion>
+				<listaLeyendas>
+					<codigoActividad>001220</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Puedes acceder a la reclamación cuando tus derechos han sido vulnerados. </descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>001220</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor debe brindar atención sin discriminación, con respeto, calidez y cordialidad a los usuarios y consumidores.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>620901</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a un trato equitativo sin discriminación en la oferta de servicios.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>692000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a un trato equitativo sin discriminación en la oferta de servicios.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>821900</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a un trato equitativo sin discriminación en la oferta de servicios.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>951000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a un trato equitativo sin discriminación en la oferta de servicios.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>001220</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor de productos debe habilitar medios e instrumentos para efectuar consultas y reclamaciones.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>476000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Está prohibido importar, distribuir o comercializar productos expirados o prontos a expirar.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>001220</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Los contratos de adhesión deben redactarse en términos claros, comprensibles, legibles y deben informar todas las facilidades y limitaciones.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>001220</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Si se te ha vulnerado algún derecho puedes exigir la reposición o restauración.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>620901</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: En caso de incumplimiento a lo ofertado o convenido, el proveedor debe reparar o sustituir el servicio.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>692000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: En caso de incumplimiento a lo ofertado o convenido, el proveedor debe reparar o sustituir el servicio.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>821900</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: En caso de incumplimiento a lo ofertado o convenido, el proveedor debe reparar o sustituir el servicio.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>951000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: En caso de incumplimiento a lo ofertado o convenido, el proveedor debe reparar o sustituir el servicio.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>620901</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor debe exhibir certificaciones de habilitación o documentos que acrediten las capacidades u ofertas de servicios especializados.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>692000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor debe exhibir certificaciones de habilitación o documentos que acrediten las capacidades u ofertas de servicios especializados.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>821900</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor debe exhibir certificaciones de habilitación o documentos que acrediten las capacidades u ofertas de servicios especializados.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>951000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor debe exhibir certificaciones de habilitación o documentos que acrediten las capacidades u ofertas de servicios especializados.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>476000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Los alimentos declarados de primera necesidad deben ser suministrados de manera adecuada, oportuna, continua y a precio justo.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>001220</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Se debe promover el consumo solidario, justo, en armonía con la Madre Tierra y precautelando el hábitat, en el marco del Vivir Bien.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>620901</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>692000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>821900</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>951000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>001220</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>001220</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor deberá dar cumplimiento a las condiciones ofertadas.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>476000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los productos que consumes.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>476000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Tienes derecho a un trato equitativo sin discriminación en la oferta de productos.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>476000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Está prohibido importar, distribuir o comercializar productos prohibidos o retirados en el país de origen por atentar a la integridad física y a la salud.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>620901</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor de servicios debe habilitar medios e instrumentos para efectuar consultas y reclamaciones.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>692000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor de servicios debe habilitar medios e instrumentos para efectuar consultas y reclamaciones.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>821900</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor de servicios debe habilitar medios e instrumentos para efectuar consultas y reclamaciones.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>951000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor de servicios debe habilitar medios e instrumentos para efectuar consultas y reclamaciones.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>620901</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor deberá suministrar el servicio en las modalidades y términos ofertados o convenidos.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>692000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor deberá suministrar el servicio en las modalidades y términos ofertados o convenidos.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>821900</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor deberá suministrar el servicio en las modalidades y términos ofertados o convenidos.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>951000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor deberá suministrar el servicio en las modalidades y términos ofertados o convenidos.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>001220</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Están prohibidas las prácticas comerciales abusivas, tienes derecho a denunciarlas.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>476000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: El proveedor deberá entregar el producto en las modalidades y términos ofertados o convenidos.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>476000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: En caso de incumplimiento a lo ofertado o convenido, el proveedor debe reparar o sustituir el producto..</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>620901</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: La interrupción del servicio debe comunicarse con anterioridad a las Autoridades que correspondan y a los usuarios afectados.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>692000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: La interrupción del servicio debe comunicarse con anterioridad a las Autoridades que correspondan y a los usuarios afectados.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>821900</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: La interrupción del servicio debe comunicarse con anterioridad a las Autoridades que correspondan y a los usuarios afectados.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>951000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: La interrupción del servicio debe comunicarse con anterioridad a las Autoridades que correspondan y a los usuarios afectados.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>476000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Los servicios deben suministrarse en condiciones de inocuidad, calidad y seguridad.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>620901</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Los servicios deben suministrarse en condiciones de inocuidad, calidad y seguridad.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>692000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Los servicios deben suministrarse en condiciones de inocuidad, calidad y seguridad.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>821900</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Los servicios deben suministrarse en condiciones de inocuidad, calidad y seguridad.</descripcionLeyenda>
+				</listaLeyendas>
+				<listaLeyendas>
+					<codigoActividad>951000</codigoActividad>
+					<descripcionLeyenda>Ley N° 453: Los servicios deben suministrarse en condiciones de inocuidad, calidad y seguridad.</descripcionLeyenda>
+				</listaLeyendas>
+			</RespuestaListaParametricasLeyendas>
+		</ns2:sincronizarListaLeyendasFacturaResponse>
+	</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,40 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Body>
+        <ns2:sincronizarParametricaEventosSignificativosResponse
+            xmlns:ns2="https://siat.impuestos.gob.bo/">
+            <RespuestaListaParametricas>
+                <transaccion>true</transaccion>
+                <listaCodigos>
+                    <codigoClasificador>1</codigoClasificador>
+                    <descripcion>CORTE DEL SERVICIO DE INTERNET</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>2</codigoClasificador>
+                    <descripcion>INACCESIBILIDAD AL SERVICIO WEB DE LA ADMINISTRACIÓN TRIBUTARIA</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>3</codigoClasificador>
+                    <descripcion>INGRESO A ZONAS SIN INTERNET POR DESPLIEGUE DE PUNTO DE VENTA EN
+                        VEHICULOS AUTOMOTORES</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>4</codigoClasificador>
+                    <descripcion>VENTA EN LUGARES SIN INTERNET</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>5</codigoClasificador>
+                    <descripcion>VIRUS INFORMÁTICO O FALLA DE SOFTWARE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>6</codigoClasificador>
+                    <descripcion>CAMBIO DE INFRAESTRUCTURA DEL SISTEMA INFORMÁTICO DE FACTURACIÓN O
+                        FALLA DE HARDWARE</descripcion>
+                </listaCodigos>
+                <listaCodigos>
+                    <codigoClasificador>7</codigoClasificador>
+                    <descripcion>CORTE DE SUMINISTRO DE ENERGIA ELECTRICA</descripcion>
+                </listaCodigos>
+            </RespuestaListaParametricas>
+        </ns2:sincronizarParametricaEventosSignificativosResponse>
+    </soap:Body>
+</soap:Envelope>

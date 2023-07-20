@@ -8,11 +8,24 @@
     <Transaction>2023/05/08 12:17:06.000.915,=D:\Proyectos\DELPHI\pruebaFact\FacturacionCodigos.pas</Transaction>
     <Transaction>2023/05/11 10:52:56.000.634,=D:\Proyectos\DELPHI\pruebaFact\Unit1.pas</Transaction>
     <Transaction>2023/05/11 14:46:46.000.414,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.pas</Transaction>
-    <Transaction>2023/05/11 15:43:13.000.945,C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.pas=C:\Users\Sistemas\Documents\GitHub\soapSW\procesoFunciones.pas</Transaction>
     <Transaction>2023/05/11 15:43:13.000.945,C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.dfm=C:\Users\Sistemas\Documents\GitHub\soapSW\procesoFunciones.dfm</Transaction>
+    <Transaction>2023/05/11 15:43:13.000.945,C:\Users\Sistemas\Documents\GitHub\soapSW\Unit2.pas=C:\Users\Sistemas\Documents\GitHub\soapSW\procesoFunciones.pas</Transaction>
     <Transaction>2023/05/13 11:47:19.000.722,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
     <Transaction>2023/05/13 11:52:19.000.542,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
-    <Transaction>2023/05/15 14:30:16.642,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
-    <Transaction>2023/05/15 14:30:24.237,C:\Users\Sistemas\Documents\GitHub\soapSW\sdcs.pas=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 14:30:16.000.642,=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 14:30:24.000.237,C:\Users\Sistemas\Documents\GitHub\soapSW\sdcs.pas=C:\Users\Sistemas\Documents\GitHub\soapSW\Unit1.pas</Transaction>
+    <Transaction>2023/05/16 11:14:32.000.296,=C:\Users\Sistemas\Documents\GitHub\soapSW\FacturacionSincronizacion.pas</Transaction>
+    <Transaction>2023/05/17 11:02:42.000.088,=C:\Users\Sistemas\Documents\GitHub\soapSW\ServicioRecepcionCompras.pas</Transaction>
+    <Transaction>2023/07/12 09:22:17.000.069,=D:\Proyectos\DELPHI\soapSW\ServicioFacturacionCompraVenta.pas</Transaction>
   </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="soapForm.pas"/>
+    <File Path="soapForm.dfm"/>
+    <File Path="FacturacionCodigos.pas"/>
+    <File Path="procesoFunciones.pas"/>
+    <File Path="procesoFunciones.dfm"/>
+    <File Path="FacturacionSincronizacion.pas"/>
+    <File Path="ServicioRecepcionCompras.pas"/>
+    <File Path="ServicioFacturacionCompraVenta.pas"/>
+  </ProjectSortOrder>
 </BorlandProject>

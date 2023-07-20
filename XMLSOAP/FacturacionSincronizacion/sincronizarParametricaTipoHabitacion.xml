@@ -1,0 +1,73 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:sincronizarParametricaTipoHabitacionResponse xmlns:ns2="https://siat.impuestos.gob.bo/">
+			<RespuestaListaParametricas>
+				<transaccion>true</transaccion>
+				<listaCodigos>
+					<codigoClasificador>1</codigoClasificador>
+					<descripcion>HABITACIÓN SENCILLA</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>2</codigoClasificador>
+					<descripcion>HABITACIÓN DOBLE</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>3</codigoClasificador>
+					<descripcion>HABITACION DOBLE DE USO INDIVIDUAL</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>4</codigoClasificador>
+					<descripcion>HABITACIÓN DOBLE CON CAMA SUPLETORIA</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>5</codigoClasificador>
+					<descripcion>HABITACIÓN MATRIMONIAL</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>6</codigoClasificador>
+					<descripcion>HABITACIÓN TRIPLE</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>7</codigoClasificador>
+					<descripcion>HABITACIÓN CUÁDRUPLE</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>8</codigoClasificador>
+					<descripcion>HABITACIÓN FAMILIAR</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>9</codigoClasificador>
+					<descripcion>JUNIOR SUITE</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>10</codigoClasificador>
+					<descripcion>SUITE</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>11</codigoClasificador>
+					<descripcion>SUITE DOBLE</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>12</codigoClasificador>
+					<descripcion>SUITE NUPCIAL</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>13</codigoClasificador>
+					<descripcion>SUITE PRESIDENCIAL</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>14</codigoClasificador>
+					<descripcion>CABAÑA</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>15</codigoClasificador>
+					<descripcion>DEPARTAMENTO</descripcion>
+				</listaCodigos>
+				<listaCodigos>
+					<codigoClasificador>16</codigoClasificador>
+					<descripcion>DORMITORIOS</descripcion>
+				</listaCodigos>
+			</RespuestaListaParametricas>
+		</ns2:sincronizarParametricaTipoHabitacionResponse>
+	</soap:Body>
+</soap:Envelope>
